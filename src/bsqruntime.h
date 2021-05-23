@@ -2,7 +2,8 @@
 // Copyright (C) Microsoft. All rights reserved.
 // Licensed under the MIT license. See LICENSE.txt file in the project root for full license information.
 //-------------------------------------------------------------------------------------------------------
-
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wunused-parameter"
 #include "common.h"
 #include "bsqvalue.h"
 #include "bsqkeyvalues.h"
@@ -15,6 +16,7 @@
 #include "bsqcustom/bsqset_ops.h"
 #include "bsqcustom/bsqmap_decl.h"
 #include "bsqcustom/bsqmap_ops.h"
+#pragma clang diagnostic pop
 
 #pragma once
 
@@ -25,21 +27,22 @@
 
 #define LEX_CFLOW(OP) if (OP) { return; }
 
+
+
 namespace BSQ
 {
 class Runtime
 {
 public:
 static BSQString STR__0;
-  static BSQString STR__1;
-  static BSQString STR__2;
-
-
-
+static BSQString STR__1;
+static BSQString STR__2;
 
 
 //%%EPHEMERAL_LIST_DECLARE
 };
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wunused-parameter"
 BSQString Runtime::STR__0("", 1);
 BSQString Runtime::STR__1("you entered: ", 1);
 BSQString Runtime::STR__2(" and Bosque printed: ", 1);
@@ -445,6 +448,8 @@ exit:
     $callerscope$.callReturnDirect($$return);
     return $$return;
 }
+#pragma clang diagnostic pop
+
 /*
 class BSQParseError
 {

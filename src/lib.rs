@@ -1,11 +1,12 @@
 #![recursion_limit = "4096"]
+
 use cpp::*;
 
 cpp! {{
     #include <iostream>
     #include "bsqruntime.h"
-    
 }}
+
 
 pub fn bsq() {
     let name = std::ffi::CString::new("BSQ Finished Executing").unwrap();
