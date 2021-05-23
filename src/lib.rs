@@ -4,6 +4,7 @@ use cpp::*;
 cpp! {{
     #include <iostream>
     #include "bsqruntime.h"
+    
 }}
 
 pub fn bsq() {
@@ -11,6 +12,11 @@ pub fn bsq() {
     let name_ptr = name.as_ptr();
     let r = unsafe {
         cpp!([name_ptr as "const char *"] -> u32 as "int32_t" {
+            
+            int val = 32;
+            int *v = &val;
+            //returns void
+            rust!(xx___1 [v : &mut i32 as "int*"] { *v = 43; } );
             
             try {
                 BSQ::BSQRefScope _scope_I19I;
