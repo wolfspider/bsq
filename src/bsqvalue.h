@@ -129,23 +129,23 @@ nscore__bigintI0I = BUILD_MIR_NOMINAL_TYPE(MIRNominalTypeEnum_Category_BigInt, 1
     nscore__regexI13I = BUILD_MIR_NOMINAL_TYPE(MIRNominalTypeEnum_Category_Regex, 14),
     nscore__stringI14I = BUILD_MIR_NOMINAL_TYPE(MIRNominalTypeEnum_Category_String, 15),
     nscore__uuidI15I = BUILD_MIR_NOMINAL_TYPE(MIRNominalTypeEnum_Category_UUID, 16),
-    nsmain__consoleI18I = BUILD_MIR_NOMINAL_TYPE(MIRNominalTypeEnum_Category_Object, 17),
-    nscore__anyI20I = BUILD_MIR_NOMINAL_TYPE(MIRNominalTypeEnum_Category_Empty, 18),
-    nscore__apitypeI21I = BUILD_MIR_NOMINAL_TYPE(MIRNominalTypeEnum_Category_Empty, 19),
-    nscore__apivalueI22I = BUILD_MIR_NOMINAL_TYPE(MIRNominalTypeEnum_Category_Empty, 20),
-    nscore__convertableI23I = BUILD_MIR_NOMINAL_TYPE(MIRNominalTypeEnum_Category_Empty, 21),
-    nscore__enumI24I = BUILD_MIR_NOMINAL_TYPE(MIRNominalTypeEnum_Category_Empty, 22),
-    nscore__expandoable_t_nscore__string_I25I = BUILD_MIR_NOMINAL_TYPE(MIRNominalTypeEnum_Category_Empty, 23),
-    nscore__idkeyI26I = BUILD_MIR_NOMINAL_TYPE(MIRNominalTypeEnum_Category_Empty, 24),
-    nscore__keytypeI27I = BUILD_MIR_NOMINAL_TYPE(MIRNominalTypeEnum_Category_Empty, 25),
-    nscore__objectI28I = BUILD_MIR_NOMINAL_TYPE(MIRNominalTypeEnum_Category_Empty, 26),
-    nscore__parsableI29I = BUILD_MIR_NOMINAL_TYPE(MIRNominalTypeEnum_Category_Empty, 27),
-    nscore__podtypeI30I = BUILD_MIR_NOMINAL_TYPE(MIRNominalTypeEnum_Category_Empty, 28),
-    nscore__recordI31I = BUILD_MIR_NOMINAL_TYPE(MIRNominalTypeEnum_Category_Record, 29),
-    nscore__someI32I = BUILD_MIR_NOMINAL_TYPE(MIRNominalTypeEnum_Category_Empty, 30),
-    nscore__truthyI33I = BUILD_MIR_NOMINAL_TYPE(MIRNominalTypeEnum_Category_Empty, 31),
-    nscore__tupleI34I = BUILD_MIR_NOMINAL_TYPE(MIRNominalTypeEnum_Category_Tuple, 32),
-    nscore__validatorI35I = BUILD_MIR_NOMINAL_TYPE(MIRNominalTypeEnum_Category_Empty, 33)
+    nsmain__consoleI19I = BUILD_MIR_NOMINAL_TYPE(MIRNominalTypeEnum_Category_Object, 17),
+    nscore__anyI21I = BUILD_MIR_NOMINAL_TYPE(MIRNominalTypeEnum_Category_Empty, 18),
+    nscore__apitypeI22I = BUILD_MIR_NOMINAL_TYPE(MIRNominalTypeEnum_Category_Empty, 19),
+    nscore__apivalueI23I = BUILD_MIR_NOMINAL_TYPE(MIRNominalTypeEnum_Category_Empty, 20),
+    nscore__convertableI24I = BUILD_MIR_NOMINAL_TYPE(MIRNominalTypeEnum_Category_Empty, 21),
+    nscore__enumI25I = BUILD_MIR_NOMINAL_TYPE(MIRNominalTypeEnum_Category_Empty, 22),
+    nscore__expandoable_t_nscore__string_I26I = BUILD_MIR_NOMINAL_TYPE(MIRNominalTypeEnum_Category_Empty, 23),
+    nscore__idkeyI27I = BUILD_MIR_NOMINAL_TYPE(MIRNominalTypeEnum_Category_Empty, 24),
+    nscore__keytypeI28I = BUILD_MIR_NOMINAL_TYPE(MIRNominalTypeEnum_Category_Empty, 25),
+    nscore__objectI29I = BUILD_MIR_NOMINAL_TYPE(MIRNominalTypeEnum_Category_Empty, 26),
+    nscore__parsableI30I = BUILD_MIR_NOMINAL_TYPE(MIRNominalTypeEnum_Category_Empty, 27),
+    nscore__podtypeI31I = BUILD_MIR_NOMINAL_TYPE(MIRNominalTypeEnum_Category_Empty, 28),
+    nscore__recordI32I = BUILD_MIR_NOMINAL_TYPE(MIRNominalTypeEnum_Category_Record, 29),
+    nscore__someI33I = BUILD_MIR_NOMINAL_TYPE(MIRNominalTypeEnum_Category_Empty, 30),
+    nscore__truthyI34I = BUILD_MIR_NOMINAL_TYPE(MIRNominalTypeEnum_Category_Empty, 31),
+    nscore__tupleI35I = BUILD_MIR_NOMINAL_TYPE(MIRNominalTypeEnum_Category_Tuple, 32),
+    nscore__validatorI36I = BUILD_MIR_NOMINAL_TYPE(MIRNominalTypeEnum_Category_Empty, 33)
 };
 
 constexpr const char* propertyNames[] = {
@@ -191,19 +191,19 @@ constexpr const char* nominaltypenames[] = {
   "NSCore::Validator"
 };
 
-constexpr MIRNominalTypeEnum MIRConceptSubtypeArray__nscore__anyI20I[19] = {MIRNominalTypeEnum::nscore__bigintI0I, MIRNominalTypeEnum::nscore__boolI1I, MIRNominalTypeEnum::nscore__buffercompressionI2I, MIRNominalTypeEnum::nscore__bufferencodingI3I, MIRNominalTypeEnum::nscore__bufferformatI4I, MIRNominalTypeEnum::nscore__bytebufferI5I, MIRNominalTypeEnum::nscore__cryptohashI6I, MIRNominalTypeEnum::nscore__float64I7I, MIRNominalTypeEnum::nscore__intI8I, MIRNominalTypeEnum::nscore__isotimeI9I, MIRNominalTypeEnum::nscore__list_t_nscore__string_I10I, MIRNominalTypeEnum::nscore__logicaltimeI11I, MIRNominalTypeEnum::nscore__noneI12I, MIRNominalTypeEnum::nscore__recordI31I, MIRNominalTypeEnum::nscore__regexI13I, MIRNominalTypeEnum::nscore__stringI14I, MIRNominalTypeEnum::nscore__tupleI34I, MIRNominalTypeEnum::nscore__uuidI15I, MIRNominalTypeEnum::nsmain__consoleI18I};
-constexpr MIRNominalTypeEnum MIRConceptSubtypeArray__nscore__apitypeI21I[14] = {MIRNominalTypeEnum::nscore__bigintI0I, MIRNominalTypeEnum::nscore__boolI1I, MIRNominalTypeEnum::nscore__buffercompressionI2I, MIRNominalTypeEnum::nscore__bufferencodingI3I, MIRNominalTypeEnum::nscore__bufferformatI4I, MIRNominalTypeEnum::nscore__cryptohashI6I, MIRNominalTypeEnum::nscore__float64I7I, MIRNominalTypeEnum::nscore__intI8I, MIRNominalTypeEnum::nscore__isotimeI9I, MIRNominalTypeEnum::nscore__list_t_nscore__string_I10I, MIRNominalTypeEnum::nscore__logicaltimeI11I, MIRNominalTypeEnum::nscore__noneI12I, MIRNominalTypeEnum::nscore__stringI14I, MIRNominalTypeEnum::nscore__uuidI15I};
-constexpr MIRNominalTypeEnum MIRConceptSubtypeArray__nscore__apivalueI22I[15] = {MIRNominalTypeEnum::nscore__bigintI0I, MIRNominalTypeEnum::nscore__boolI1I, MIRNominalTypeEnum::nscore__buffercompressionI2I, MIRNominalTypeEnum::nscore__bufferencodingI3I, MIRNominalTypeEnum::nscore__bufferformatI4I, MIRNominalTypeEnum::nscore__bytebufferI5I, MIRNominalTypeEnum::nscore__cryptohashI6I, MIRNominalTypeEnum::nscore__float64I7I, MIRNominalTypeEnum::nscore__intI8I, MIRNominalTypeEnum::nscore__isotimeI9I, MIRNominalTypeEnum::nscore__list_t_nscore__string_I10I, MIRNominalTypeEnum::nscore__logicaltimeI11I, MIRNominalTypeEnum::nscore__noneI12I, MIRNominalTypeEnum::nscore__stringI14I, MIRNominalTypeEnum::nscore__uuidI15I};
-constexpr MIRNominalTypeEnum MIRConceptSubtypeArray__nscore__enumI24I[3] = {MIRNominalTypeEnum::nscore__buffercompressionI2I, MIRNominalTypeEnum::nscore__bufferencodingI3I, MIRNominalTypeEnum::nscore__bufferformatI4I};
-constexpr MIRNominalTypeEnum MIRConceptSubtypeArray__nscore__expandoable_t_nscore__string_I25I[1] = {MIRNominalTypeEnum::nscore__list_t_nscore__string_I10I};
-constexpr MIRNominalTypeEnum MIRConceptSubtypeArray__nscore__keytypeI27I[11] = {MIRNominalTypeEnum::nscore__bigintI0I, MIRNominalTypeEnum::nscore__boolI1I, MIRNominalTypeEnum::nscore__buffercompressionI2I, MIRNominalTypeEnum::nscore__bufferencodingI3I, MIRNominalTypeEnum::nscore__bufferformatI4I, MIRNominalTypeEnum::nscore__cryptohashI6I, MIRNominalTypeEnum::nscore__intI8I, MIRNominalTypeEnum::nscore__logicaltimeI11I, MIRNominalTypeEnum::nscore__noneI12I, MIRNominalTypeEnum::nscore__stringI14I, MIRNominalTypeEnum::nscore__uuidI15I};
-constexpr MIRNominalTypeEnum MIRConceptSubtypeArray__nscore__objectI28I[2] = {MIRNominalTypeEnum::nscore__list_t_nscore__string_I10I, MIRNominalTypeEnum::nsmain__consoleI18I};
-constexpr MIRNominalTypeEnum MIRConceptSubtypeArray__nscore__parsableI29I[12] = {MIRNominalTypeEnum::nscore__bigintI0I, MIRNominalTypeEnum::nscore__boolI1I, MIRNominalTypeEnum::nscore__buffercompressionI2I, MIRNominalTypeEnum::nscore__bufferencodingI3I, MIRNominalTypeEnum::nscore__bufferformatI4I, MIRNominalTypeEnum::nscore__cryptohashI6I, MIRNominalTypeEnum::nscore__float64I7I, MIRNominalTypeEnum::nscore__intI8I, MIRNominalTypeEnum::nscore__isotimeI9I, MIRNominalTypeEnum::nscore__logicaltimeI11I, MIRNominalTypeEnum::nscore__noneI12I, MIRNominalTypeEnum::nscore__uuidI15I};
-constexpr MIRNominalTypeEnum MIRConceptSubtypeArray__nscore__podtypeI30I[11] = {MIRNominalTypeEnum::nscore__bigintI0I, MIRNominalTypeEnum::nscore__boolI1I, MIRNominalTypeEnum::nscore__cryptohashI6I, MIRNominalTypeEnum::nscore__float64I7I, MIRNominalTypeEnum::nscore__intI8I, MIRNominalTypeEnum::nscore__isotimeI9I, MIRNominalTypeEnum::nscore__list_t_nscore__string_I10I, MIRNominalTypeEnum::nscore__logicaltimeI11I, MIRNominalTypeEnum::nscore__noneI12I, MIRNominalTypeEnum::nscore__stringI14I, MIRNominalTypeEnum::nscore__uuidI15I};
-constexpr MIRNominalTypeEnum MIRConceptSubtypeArray__nscore__recordI31I[1] = {MIRNominalTypeEnum::nscore__recordI31I};
-constexpr MIRNominalTypeEnum MIRConceptSubtypeArray__nscore__someI32I[18] = {MIRNominalTypeEnum::nscore__bigintI0I, MIRNominalTypeEnum::nscore__boolI1I, MIRNominalTypeEnum::nscore__buffercompressionI2I, MIRNominalTypeEnum::nscore__bufferencodingI3I, MIRNominalTypeEnum::nscore__bufferformatI4I, MIRNominalTypeEnum::nscore__bytebufferI5I, MIRNominalTypeEnum::nscore__cryptohashI6I, MIRNominalTypeEnum::nscore__float64I7I, MIRNominalTypeEnum::nscore__intI8I, MIRNominalTypeEnum::nscore__isotimeI9I, MIRNominalTypeEnum::nscore__list_t_nscore__string_I10I, MIRNominalTypeEnum::nscore__logicaltimeI11I, MIRNominalTypeEnum::nscore__recordI31I, MIRNominalTypeEnum::nscore__regexI13I, MIRNominalTypeEnum::nscore__stringI14I, MIRNominalTypeEnum::nscore__tupleI34I, MIRNominalTypeEnum::nscore__uuidI15I, MIRNominalTypeEnum::nsmain__consoleI18I};
-constexpr MIRNominalTypeEnum MIRConceptSubtypeArray__nscore__truthyI33I[2] = {MIRNominalTypeEnum::nscore__boolI1I, MIRNominalTypeEnum::nscore__noneI12I};
-constexpr MIRNominalTypeEnum MIRConceptSubtypeArray__nscore__tupleI34I[1] = {MIRNominalTypeEnum::nscore__tupleI34I};
+constexpr MIRNominalTypeEnum MIRConceptSubtypeArray__nscore__anyI21I[19] = {MIRNominalTypeEnum::nscore__bigintI0I, MIRNominalTypeEnum::nscore__boolI1I, MIRNominalTypeEnum::nscore__buffercompressionI2I, MIRNominalTypeEnum::nscore__bufferencodingI3I, MIRNominalTypeEnum::nscore__bufferformatI4I, MIRNominalTypeEnum::nscore__bytebufferI5I, MIRNominalTypeEnum::nscore__cryptohashI6I, MIRNominalTypeEnum::nscore__float64I7I, MIRNominalTypeEnum::nscore__intI8I, MIRNominalTypeEnum::nscore__isotimeI9I, MIRNominalTypeEnum::nscore__list_t_nscore__string_I10I, MIRNominalTypeEnum::nscore__logicaltimeI11I, MIRNominalTypeEnum::nscore__noneI12I, MIRNominalTypeEnum::nscore__recordI32I, MIRNominalTypeEnum::nscore__regexI13I, MIRNominalTypeEnum::nscore__stringI14I, MIRNominalTypeEnum::nscore__tupleI35I, MIRNominalTypeEnum::nscore__uuidI15I, MIRNominalTypeEnum::nsmain__consoleI19I};
+constexpr MIRNominalTypeEnum MIRConceptSubtypeArray__nscore__apitypeI22I[14] = {MIRNominalTypeEnum::nscore__bigintI0I, MIRNominalTypeEnum::nscore__boolI1I, MIRNominalTypeEnum::nscore__buffercompressionI2I, MIRNominalTypeEnum::nscore__bufferencodingI3I, MIRNominalTypeEnum::nscore__bufferformatI4I, MIRNominalTypeEnum::nscore__cryptohashI6I, MIRNominalTypeEnum::nscore__float64I7I, MIRNominalTypeEnum::nscore__intI8I, MIRNominalTypeEnum::nscore__isotimeI9I, MIRNominalTypeEnum::nscore__list_t_nscore__string_I10I, MIRNominalTypeEnum::nscore__logicaltimeI11I, MIRNominalTypeEnum::nscore__noneI12I, MIRNominalTypeEnum::nscore__stringI14I, MIRNominalTypeEnum::nscore__uuidI15I};
+constexpr MIRNominalTypeEnum MIRConceptSubtypeArray__nscore__apivalueI23I[15] = {MIRNominalTypeEnum::nscore__bigintI0I, MIRNominalTypeEnum::nscore__boolI1I, MIRNominalTypeEnum::nscore__buffercompressionI2I, MIRNominalTypeEnum::nscore__bufferencodingI3I, MIRNominalTypeEnum::nscore__bufferformatI4I, MIRNominalTypeEnum::nscore__bytebufferI5I, MIRNominalTypeEnum::nscore__cryptohashI6I, MIRNominalTypeEnum::nscore__float64I7I, MIRNominalTypeEnum::nscore__intI8I, MIRNominalTypeEnum::nscore__isotimeI9I, MIRNominalTypeEnum::nscore__list_t_nscore__string_I10I, MIRNominalTypeEnum::nscore__logicaltimeI11I, MIRNominalTypeEnum::nscore__noneI12I, MIRNominalTypeEnum::nscore__stringI14I, MIRNominalTypeEnum::nscore__uuidI15I};
+constexpr MIRNominalTypeEnum MIRConceptSubtypeArray__nscore__enumI25I[3] = {MIRNominalTypeEnum::nscore__buffercompressionI2I, MIRNominalTypeEnum::nscore__bufferencodingI3I, MIRNominalTypeEnum::nscore__bufferformatI4I};
+constexpr MIRNominalTypeEnum MIRConceptSubtypeArray__nscore__expandoable_t_nscore__string_I26I[1] = {MIRNominalTypeEnum::nscore__list_t_nscore__string_I10I};
+constexpr MIRNominalTypeEnum MIRConceptSubtypeArray__nscore__keytypeI28I[11] = {MIRNominalTypeEnum::nscore__bigintI0I, MIRNominalTypeEnum::nscore__boolI1I, MIRNominalTypeEnum::nscore__buffercompressionI2I, MIRNominalTypeEnum::nscore__bufferencodingI3I, MIRNominalTypeEnum::nscore__bufferformatI4I, MIRNominalTypeEnum::nscore__cryptohashI6I, MIRNominalTypeEnum::nscore__intI8I, MIRNominalTypeEnum::nscore__logicaltimeI11I, MIRNominalTypeEnum::nscore__noneI12I, MIRNominalTypeEnum::nscore__stringI14I, MIRNominalTypeEnum::nscore__uuidI15I};
+constexpr MIRNominalTypeEnum MIRConceptSubtypeArray__nscore__objectI29I[2] = {MIRNominalTypeEnum::nscore__list_t_nscore__string_I10I, MIRNominalTypeEnum::nsmain__consoleI19I};
+constexpr MIRNominalTypeEnum MIRConceptSubtypeArray__nscore__parsableI30I[12] = {MIRNominalTypeEnum::nscore__bigintI0I, MIRNominalTypeEnum::nscore__boolI1I, MIRNominalTypeEnum::nscore__buffercompressionI2I, MIRNominalTypeEnum::nscore__bufferencodingI3I, MIRNominalTypeEnum::nscore__bufferformatI4I, MIRNominalTypeEnum::nscore__cryptohashI6I, MIRNominalTypeEnum::nscore__float64I7I, MIRNominalTypeEnum::nscore__intI8I, MIRNominalTypeEnum::nscore__isotimeI9I, MIRNominalTypeEnum::nscore__logicaltimeI11I, MIRNominalTypeEnum::nscore__noneI12I, MIRNominalTypeEnum::nscore__uuidI15I};
+constexpr MIRNominalTypeEnum MIRConceptSubtypeArray__nscore__podtypeI31I[11] = {MIRNominalTypeEnum::nscore__bigintI0I, MIRNominalTypeEnum::nscore__boolI1I, MIRNominalTypeEnum::nscore__cryptohashI6I, MIRNominalTypeEnum::nscore__float64I7I, MIRNominalTypeEnum::nscore__intI8I, MIRNominalTypeEnum::nscore__isotimeI9I, MIRNominalTypeEnum::nscore__list_t_nscore__string_I10I, MIRNominalTypeEnum::nscore__logicaltimeI11I, MIRNominalTypeEnum::nscore__noneI12I, MIRNominalTypeEnum::nscore__stringI14I, MIRNominalTypeEnum::nscore__uuidI15I};
+constexpr MIRNominalTypeEnum MIRConceptSubtypeArray__nscore__recordI32I[1] = {MIRNominalTypeEnum::nscore__recordI32I};
+constexpr MIRNominalTypeEnum MIRConceptSubtypeArray__nscore__someI33I[18] = {MIRNominalTypeEnum::nscore__bigintI0I, MIRNominalTypeEnum::nscore__boolI1I, MIRNominalTypeEnum::nscore__buffercompressionI2I, MIRNominalTypeEnum::nscore__bufferencodingI3I, MIRNominalTypeEnum::nscore__bufferformatI4I, MIRNominalTypeEnum::nscore__bytebufferI5I, MIRNominalTypeEnum::nscore__cryptohashI6I, MIRNominalTypeEnum::nscore__float64I7I, MIRNominalTypeEnum::nscore__intI8I, MIRNominalTypeEnum::nscore__isotimeI9I, MIRNominalTypeEnum::nscore__list_t_nscore__string_I10I, MIRNominalTypeEnum::nscore__logicaltimeI11I, MIRNominalTypeEnum::nscore__recordI32I, MIRNominalTypeEnum::nscore__regexI13I, MIRNominalTypeEnum::nscore__stringI14I, MIRNominalTypeEnum::nscore__tupleI35I, MIRNominalTypeEnum::nscore__uuidI15I, MIRNominalTypeEnum::nsmain__consoleI19I};
+constexpr MIRNominalTypeEnum MIRConceptSubtypeArray__nscore__truthyI34I[2] = {MIRNominalTypeEnum::nscore__boolI1I, MIRNominalTypeEnum::nscore__noneI12I};
+constexpr MIRNominalTypeEnum MIRConceptSubtypeArray__nscore__tupleI35I[1] = {MIRNominalTypeEnum::nscore__tupleI35I};
 
 constexpr DATA_KIND_FLAG nominalDataKinds[] = {
   DATA_KIND_CLEAR_FLAG,
@@ -236,10 +236,10 @@ constexpr DATA_KIND_FLAG nominalDataKinds[] = {
 #define MIRNominalTypeEnum_Int MIRNominalTypeEnum::nscore__intI8I
 #define MIRNominalTypeEnum_LogicalTime MIRNominalTypeEnum::nscore__logicaltimeI11I
 #define MIRNominalTypeEnum_None MIRNominalTypeEnum::nscore__noneI12I
-#define MIRNominalTypeEnum_Record MIRNominalTypeEnum::nscore__recordI31I
+#define MIRNominalTypeEnum_Record MIRNominalTypeEnum::nscore__recordI32I
 #define MIRNominalTypeEnum_Regex MIRNominalTypeEnum::nscore__regexI13I
 #define MIRNominalTypeEnum_String MIRNominalTypeEnum::nscore__stringI14I
-#define MIRNominalTypeEnum_Tuple MIRNominalTypeEnum::nscore__tupleI34I
+#define MIRNominalTypeEnum_Tuple MIRNominalTypeEnum::nscore__tupleI35I
 #define MIRNominalTypeEnum_UUID MIRNominalTypeEnum::nscore__uuidI15I
 //%%SPECIAL_NAME_BLOCK_END%%
 
