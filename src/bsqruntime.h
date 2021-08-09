@@ -830,7 +830,7 @@ returnassign:
 exit:
     $callerscope$.callReturnDirect($$return);
     return $$return;
-#pragma clang diagnostic pop
 }
+#pragma clang diagnostic pop
 }
 
