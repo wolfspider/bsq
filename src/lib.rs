@@ -12,14 +12,15 @@ let name_ptr = name.as_ptr();
 let r = unsafe {
 cpp!([name_ptr as "const char *"] -> u32 as "int32_t" {
 
+
 /*main decl*/
     try {
-      BSQ::BSQRefScope _scope_I15I;
-      std::cout << BSQ::diagnostic_format(((BSQ::Value)BSQ::nsmain__mainI142I(_scope_I15I))) << "\n";
-      std::cout << name_ptr << std::endl;
-      fflush(stdout);
-      return 0;
-    } catch (BSQ::BSQAbort& abrt) HANDLE_BSQ_ABORT(abrt);
+    BSQ::BSQRefScope _scope_I20I;
+    std::cout << BSQ::diagnostic_format(((BSQ::Value)BSQ::nsmain__mainI79I(_scope_I20I))) << "\n";
+    std::cout << name_ptr << std::endl;
+    fflush(stdout);
+    return 0;
+  } catch (BSQ::BSQAbort& abrt) HANDLE_BSQ_ABORT(abrt);
     })
 };
 assert_eq!(r, 0);
