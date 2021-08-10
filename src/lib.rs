@@ -16,8 +16,8 @@ cpp!([name_ptr as "const char *"] -> u32 as "int32_t" {
 
 /*main decl*/
     try {
-    BSQRefScope _scope_I20I;
-    std::cout << diagnostic_format(((Value)nsmain__mainI79I(_scope_I20I))) << "\n";
+    BSQRefScope _scope_I15I;
+    std::cout << diagnostic_format(((Value)nsmain__mainI142I(_scope_I15I))) << "\n";
     std::cout << name_ptr << std::endl;
     fflush(stdout);
     return 0;

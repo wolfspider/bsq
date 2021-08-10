@@ -7,16 +7,14 @@
 namespace BSQ
 {
 BSQString Runtime::STR__0("", 1);
-  BSQString Runtime::STR__1(" ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄", 1);
-  BSQString Runtime::STR__10("Command Entered: ", 1);
-  BSQString Runtime::STR__2("█   ▄▄     ▄▄   █", 1);
-  BSQString Runtime::STR__3("█  █  █▀▀▀█  █  █", 1);
-  BSQString Runtime::STR__4("█   ▀▀▀   ▀▀▀   █", 1);
-  BSQString Runtime::STR__5("█ ▄▀▀▀▀▀▀▀▀▀▀▀▄ █", 1);
-  BSQString Runtime::STR__6("▀▄█▄█▄▄▄▄▄▄▄█▄█▄▀", 1);
-  BSQString Runtime::STR__7("TapeDeck version 0.1", 1);
-  BSQString Runtime::STR__8("--------------------", 1);
-  BSQString Runtime::STR__9("Enter Command:", 1);
+  BSQString Runtime::STR__1("block", 1);
+  BSQString Runtime::STR__2("yld", 1);
+  BSQString Runtime::STR__3("tick", 1);
+  BSQString Runtime::STR__4("detach", 1);
+  BSQString Runtime::STR__5("new", 1);
+  BSQString Runtime::STR__6("BSQ TapeDeck", 1);
+  BSQString Runtime::STR__7("Home", 1);
+  BSQString Runtime::STR__8("Wagner", 1);
 
 
 
